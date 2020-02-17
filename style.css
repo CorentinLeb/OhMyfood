@@ -1,0 +1,88 @@
+header {
+    background: #569C87;
+    
+}
+h1 {
+    color: #FFB300;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+#menus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-flow: row wrap;
+    
+}
+
+#laNote {
+    margin-right: 40px;
+}
+
+#leDelice {
+    margin-right: 40px;
+}
+
+footer {
+    background: #569C87;
+}
+
+#footerStyle {
+    color: #FFB300;
+    text-align: center;
+}
+
+#contactUs {
+    color: #FFB300; 
+    margin-left: 83%;
+}
+
+#laNote {
+    background: #FCDFDA;
+    max-width: 25%;
+    
+}
+
+#leChic {
+    background: #FEF5FD;
+    max-width: 50%;
+    
+}
+
+#leDelice {
+    background: #F9F9F9;
+    max-width: 50%;
+}
+
+#laPalette {
+    background: #FDFFFD;
+    max-width: 50%;
+}
+
+.musicNote {
+    text-align: center;
+}
+
+.menu:hover {
+    border: 3px black ridge;
+    border-radius: 5px;
+}
+
+#soon {
+    background: #569C87;
+    color: #FFB300;
+    margin-bottom: 20px;
+    max-width: 20%;
+    margin-left: 500px;
+    margin-top: 25px;
+    text-align: center;
+    border: 3px #569C87 ridge;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-transform: bold;
+}
