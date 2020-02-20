@@ -24,26 +24,66 @@ h1 {
 	padding: 26px;
 }
 
-h3 {
-    text-transform: uppercase;
+.ohMyFoodMenu {
+    display: grid;
+    justify-content: center;
+    margin: 0 8em;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 600px 600px;
+    grid-gap: 5em;
 }
 
-.menus {
-    width: 37%;
-	height: 350px;
-	margin: 4%;
-	display: inline-block;
-	vertical-align: top;
-	box-shadow: 0 0 4px 4px #ddd;
-	text-decoration: none;
+#menu-1 {
+	background-color: #fcdfdb;
 }
 
-#laNote {
-    margin-right: 40px;
+#menu-2 {
+	background-color: #fff5fe;
 }
 
-#leDelice {
-    margin-right: 40px;
+#menu-3 {
+	background-color: #f9f9f9;
+}
+
+#menu-4 {
+	background-color: #fdfffd;
+}
+
+#menu-1 h2 {
+	font-family: Satisfy, cursive;
+	font-size: 25px;
+	color: #4B2227;
+	margin: 0 0 10px 0;
+}
+
+#menu-2 h2 {
+	font-family: 'Patrick+Hand', cursive;
+	font-size: 22px;
+	background: -webkit-linear-gradient(180deg, #9865fb, #e1a162);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#menu-3 h2 {
+	font-family: Satisfy, cursive;
+	font-size: 26px;
+	background: -webkit-linear-gradient(180deg, #148cfb, #133fe1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#menu-4 h2 {
+	font-family: 'Courgette', cursive;
+	font-size: 26px;
+	background: -webkit-linear-gradient(180deg, #c5ff8d, #489945);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#menu div:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+	opacity: 0.33;
 }
 
 footer {
@@ -80,13 +120,6 @@ footer a:hover {
     perspective: 1000px;
  }
 
-#laNote {
-    background: 
-    max-width: 25%;
-    
-}
-
-
 #soon {
     width: 30%;
 	margin: 20px auto;
@@ -100,6 +133,6 @@ footer a:hover {
 #soon a {
 	color: #F5C74A;
 	font-size: 20px;
-	/*font-family: Roboto, cursive;*/
+	font-family: Roboto, cursive;
 	text-decoration: none;
 }
