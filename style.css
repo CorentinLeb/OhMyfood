@@ -23,14 +23,7 @@ h3 {
 }
 
 #menus {
-    width: 37%;
-	height: 350px;
-	margin: 4%;
-	display: inline-block;
-	vertical-align: top;
-	box-shadow: 0 0 4px 4px #ddd;
-	text-decoration: none;
-    
+    display: grid;
 }
 
 #laNote {
@@ -42,7 +35,7 @@ h3 {
 }
 
 footer {
-    background-color: $color-primary;
+    background-color: #569C87;
 	position: fixed;
 	bottom: 0;
 	left: 0;
