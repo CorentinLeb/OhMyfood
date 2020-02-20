@@ -1,0 +1,23 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "ohmyfood project",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch .style2.scss: .style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CorentinLeb/OhMyfood.git"
+  },
+  "keywords": [
+    "ocr",
+    "ohmyfood"
+  ],
+  "author": "CorentinLB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CorentinLeb/OhMyfood/issues"
+  },
+  "homepage": "https://github.com/CorentinLeb/OhMyfood#readme"
+}
