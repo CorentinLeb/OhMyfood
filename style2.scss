@@ -1,7 +1,115 @@
-$color: #00897B;
+/*couleurs*/
+$color-primary: #569C87;
+$color1: #FFB300;
+$color2: #FCDFDA;
+$color3: 
 
-body{
-    color: $color;
-    background-color: black;
+
+
+body {
+    color: $color-primary;
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.5em;
+    background-color: #fff;
 }
 
+header {
+    background: #569C87;
+    
+}
+h1 {
+    font-family: Roboto, cursive;
+	background-color: #569C87;
+	color: #F5C74A;
+	font-size: 46px;
+	margin: 0;
+	padding: 26px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+#menus {
+    width: 37%;
+	height: 350px;
+	margin: 4%;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 0 0 4px 4px #ddd;
+	text-decoration: none;
+    
+}
+
+#laNote {
+    margin-right: 40px;
+}
+
+#leDelice {
+    margin-right: 40px;
+}
+
+footer {
+    background-color: $color-primary;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: inline-block;
+}
+
+#footerStyle {
+    color: $color1
+    text-align: center;
+}
+
+#contactUs {
+    color: $color1; 
+    margin-left: 83%;
+}
+
+#laNote {
+    background: 
+    max-width: 25%;
+    
+}
+
+#leChic {
+    background: #FEF5FD;
+    max-width: 50%;
+    
+}
+
+#leDelice {
+    background: #F9F9F9;
+    max-width: 50%;
+}
+
+#laPalette {
+    background: #FDFFFD;
+    max-width: 50%;
+}
+
+.musicNote {
+    text-align: center;
+}
+
+.menu:hover {
+    border: 3px black ridge;
+    border-radius: 5px;
+}
+
+#soon {
+    background: #569C87;
+    color: #FFB300;
+    margin-bottom: 20px;
+    max-width: 20%;
+    margin-left: 500px;
+    margin-top: 25px;
+    text-align: center;
+    border: 3px #569C87 ridge;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-transform: bold;
+}
