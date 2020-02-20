@@ -1,14 +1,20 @@
 body {
-    color: $color-primary;
-    margin: 0;
-    font-family: 'Montserrat',sans-serif;
-    font-size: 0.5em;
+	background-color: #ddd;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 header {
     background: #569C87;
     
 }
+
+header, footer {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
 h1 {
     font-family: Roboto, cursive;
 	background-color: #569C87;
@@ -22,8 +28,14 @@ h3 {
     text-transform: uppercase;
 }
 
-#menus {
-    display: grid;
+.menus {
+    width: 37%;
+	height: 350px;
+	margin: 4%;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 0 0 4px 4px #ddd;
+	text-decoration: none;
 }
 
 #laNote {
@@ -35,7 +47,7 @@ h3 {
 }
 
 footer {
-    background-color: #569C87;
+	background-color: #569C87;
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -43,14 +55,22 @@ footer {
 	display: inline-block;
 }
 
-#footerStyle {
-    color: $color1
-    text-align: center;
+footer a {
+	font-family: Roboto, cursive;
+	font-size: 20px;
+	color: #F5C74A;
+	text-decoration: none;
+	
 }
 
-#contactUs {
-    color: $color1; 
-    margin-left: 83%;
+footer a:first-child {
+	float: left;
+	padding: 20px 0px 0 25px ;
+}
+
+footer a:last-child {
+	float: right;
+	padding: 20px 25px 20px 0;
 }
 
 #laNote {
@@ -59,41 +79,13 @@ footer {
     
 }
 
-#leChic {
-    background: #FEF5FD;
-    max-width: 50%;
-    
-}
-
-#leDelice {
-    background: #F9F9F9;
-    max-width: 50%;
-}
-
-#laPalette {
-    background: #FDFFFD;
-    max-width: 50%;
-}
-
-.musicNote {
-    text-align: center;
-}
-
-.menu:hover {
-    border: 3px black ridge;
-    border-radius: 5px;
-}
 
 #soon {
-    background: #569C87;
-    color: #FFB300;
-    margin-bottom: 20px;
-    max-width: 20%;
-    margin-left: 500px;
-    margin-top: 25px;
-    text-align: center;
-    border: 3px #569C87 ridge;
-    border-radius: 3px;
-    text-transform: uppercase;
-    text-transform: bold;
+    width: 30%;
+	margin: 20px auto;
+	background-color: #569C87;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
 }
