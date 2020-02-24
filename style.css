@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	background-color: #ddd;
 	text-align: center;
@@ -233,3 +234,240 @@ footer a:hover {
    }
 }
 
+=======
+body {
+	background-color: #ddd;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: Roboto, cursive;
+	background-color: #569C87;
+	color: #F5C74A;
+	font-size: 46px;
+	margin: 0;
+	padding: 26px;
+}
+
+header, footer {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #569C87;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: inline-block;
+}
+
+footer a {
+	font-family: Roboto, cursive;
+	font-size: 20px;
+	color: #F5C74A;
+	text-decoration: none;
+	
+}
+
+footer a:first-child {
+	float: left;
+	padding: 20px 0px 0 25px ;
+}
+
+footer a:last-child {
+	float: right;
+	padding: 20px 25px 20px 0;
+}
+
+/* 100px de bootom pour pouvoir fixer le footer sans cacher le contenue de la page */
+#accueil-ohmyfood {
+	background-color: white;
+	max-width: 700px;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+.menu {
+	width: 37%;
+	height: 350px;
+	margin: 4%;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 0 0 4px 4px #ddd;
+	text-decoration: none;
+}
+
+.menu-1 {
+	background-color: #fcdfdb;
+}
+
+.menu-2 {
+	background-color: #fff5fe;
+}
+
+.menu-3 {
+	background-color: #f9f9f9;
+}
+
+.menu-4 {
+	background-color: #fdfffd;
+}
+
+.menu .music {
+	font-size: 35px;
+	margin: 100px 0 10px 0;
+	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.menu-1 h2 {
+	font-family: Satisfy, cursive;
+	font-size: 25px;
+	color: #4B2227;
+	margin: 0 0 10px 0;
+}
+
+.menu-2
+.menu-3
+.menu-4, 
+h2 {
+	margin: 140px 0 10px 0;
+}
+
+.menu-2 h2 {
+	font-family: 'Patrick+Hand', cursive;
+	font-size: 22px;
+	background: -webkit-linear-gradient(180deg, #9865fb, #e1a162);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.menu-3 h2 {
+	font-family: Satisfy, cursive;
+	font-size: 26px;
+	background: -webkit-linear-gradient(180deg, #148cfb, #133fe1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.menu-4 h2 {
+	font-family: 'Courgette', cursive;
+	font-size: 26px;
+	background: -webkit-linear-gradient(180deg, #c5ff8d, #489945);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.menu-1 span {
+	font-size: 22px;
+	font-family: Kalam, cursive;
+	color: #3e151b;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menu-2 span {
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+	color: #c77412;
+	font-weight: bold;
+}
+
+.menu-3 span {
+	font-family: Satisfy, cursive;
+	font-size: 24px;
+	color: #0887fb;
+}
+
+.menu-4 span {
+	font-family: Satisfy, cursive;
+	font-size: 24px;
+	color: #72bf56;
+}
+
+.menu div:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+	opacity: 0.33;
+}
+
+/* Bouton prochainement */
+.soon {
+	width: 30%;
+	margin: 20px auto;
+	background-color: #569C87;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.soon a {
+	color: #F5C74A;
+	font-size: 20px;
+	/*font-family: Roboto, cursive;*/
+	text-decoration: none;
+}
+
+/*  Animation footer */
+footer a:hover {
+   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+   transform: translate3d(0, 0, 0);
+   backface-visibility: hidden;
+   perspective: 1000px;
+}
+
+@keyframes shake {
+   10%, 90% {
+   transform: translate3d(-1px, 0, 0);
+}
+   20%, 80% {
+   transform: translate3d(2px, 0, 0);
+}
+   30%, 50%, 70% {
+   transform: translate3d(-4px, 0, 0);
+}
+   40%, 60% {
+   transform: translate3d(4px, 0, 0);
+}
+}
+
+.dot {
+   margin: 0 auto;
+   width: 70px;
+   text-align: center;
+}
+
+.dot > span {
+   width: 12px;
+   height: 12px;
+   background-color: #F5C74A;
+   border-radius: 100%;
+   display: inline-block;
+   animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.dot .bounce1 {
+   animation-delay: -0.32s;
+}
+
+.dot .bounce2 {
+   animation-delay: -0.16s;
+}
+
+@keyframes sk-bouncedelay {
+   0%, 80%, 100% { 
+   transform: scale(0);
+	}
+   40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+   }
+}
+
+>>>>>>> 6358a2d6767032c05bfbdee0d170cc74c124c986
