@@ -46,7 +46,7 @@ footer a:last-child {
 	padding: 20px 25px 20px 0;
 }
 
-/* 100px de bootom pour pouvoir fixer le footer sans cacher le contenue de la page */
+
 #accueil-ohmyfood {
 	background-color: white;
 	max-width: 700px;
@@ -159,7 +159,7 @@ h2 {
 	opacity: 0.33;
 }
 
-/* Bouton prochainement */
+
 .soon {
 	width: 30%;
 	margin: 20px auto;
@@ -173,11 +173,9 @@ h2 {
 .soon a {
 	color: #F5C74A;
 	font-size: 20px;
-	/*font-family: Roboto, cursive;*/
 	text-decoration: none;
 }
 
-/*  Animation footer */
 footer a:hover {
    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
    transform: translate3d(0, 0, 0);
