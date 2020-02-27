@@ -84,6 +84,7 @@ footer a:last-child {
 	font-size: 35px;
 	margin: 100px 0 10px 0;
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -106,6 +107,7 @@ h2 {
 	font-family: 'Patrick+Hand', cursive;
 	font-size: 22px;
 	background: -webkit-linear-gradient(180deg, #9865fb, #e1a162);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -114,6 +116,7 @@ h2 {
 	font-family: Satisfy, cursive;
 	font-size: 26px;
 	background: -webkit-linear-gradient(180deg, #148cfb, #133fe1);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -122,6 +125,7 @@ h2 {
 	font-family: 'Courgette', cursive;
 	font-size: 26px;
 	background: -webkit-linear-gradient(180deg, #c5ff8d, #489945);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
