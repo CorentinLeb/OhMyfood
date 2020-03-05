@@ -8,18 +8,26 @@ h1 {
 	text-align: center;
 }
 
+header {
+	
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+}
+
 header, footer {
 	max-width: 700px;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 
 footer {
 	background-color: #569C87;
-	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	display: inline-block;
+	position: fixed;
 }
 
 footer a {
@@ -56,7 +64,7 @@ footer a:hover {
 	text-align: center;
 }
 
-#plat-note-enchantee
+
 h2 {
 	margin: 0px 0 10px 0;
 	padding-top: 20px;
@@ -64,16 +72,12 @@ h2 {
 	color: #353535;
 }
 
-#plat-note-enchantee
+
 .plat {
 	padding-bottom: 40px;
 	background-color: #fcdfdb;
 }
 
-#plat-note-enchantee
-.titre-plat
-.music,
-.pied-plat
 .music {
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
 	background-clip: text;
@@ -81,7 +85,7 @@ h2 {
 	color: transparent;
 }
 
-#plat-note-enchantee
+
 .titre-plat
 .music {
 	font-size: 60px;
@@ -89,7 +93,7 @@ h2 {
 	margin: 0;
 }
 
-#plat-note-enchantee
+
 .titre-plat
 h3 {
 	font-family: Satisfy;
@@ -99,14 +103,12 @@ h3 {
 	margin: 0;
 }
 
-#plat-note-enchantee
 h3 {
 	font-size: 30px;
 	color: #3D1319;
 	font-family: Satisfy;
 }
 
-#plat-note-enchantee
 ul {
 	font-size: 18px;
 	color: #3D1319;
@@ -116,13 +118,11 @@ ul {
 	margin: 0;
 }
 
-#plat-note-enchantee
 ul li {
 	margin-bottom: 15px;
 	font-family: Satisfy;
 }
 
-#plat-note-enchantee
 .prix {
 	float: right;
 }
