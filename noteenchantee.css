@@ -1,0 +1,137 @@
+h1 {
+	font-family: Roboto, cursive;
+	background-color: #569C87;
+	color: #F5C74A;
+	font-size: 46px;
+	margin: 0;
+	padding: 26px;
+}
+
+header, footer {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #569C87;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: inline-block;
+}
+
+footer a {
+	font-family: Roboto, cursive;
+	font-size: 20px;
+	color: #F5C74A;
+	text-decoration: none;
+	
+}
+
+footer a:first-child {
+	float: left;
+	padding: 20px 0px 0 25px ;
+}
+
+footer a:last-child {
+	float: right;
+	padding: 20px 25px 20px 0;
+}
+
+footer a:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+ }
+
+
+#plat-note-enchantee {
+	background-color: white;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+}
+
+#plat-note-enchantee
+h2 {
+	margin: 0px 0 10px 0;
+	padding-top: 20px;
+	font-size: 25px;
+	color: #353535;
+}
+
+#plat-note-enchantee
+.plat {
+	padding-bottom: 40px;
+	background-color: #fcdfdb;
+}
+
+#plat-note-enchantee
+.titre-plat
+.music,
+.pied-plat
+.music {
+	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#plat-note-enchantee
+.titre-plat
+.music {
+	font-size: 60px;
+	padding: 40px 0 0 0;
+	margin: 0;
+}
+
+#plat-note-enchantee
+.titre-plat
+h3 {
+	font-family: Satisfy;
+	color: #3D1319;
+	font-size: 50px;
+	padding: 0 0 20px 0;
+	margin: 0;
+}
+
+#plat-note-enchantee
+h3 {
+	font-size: 30px;
+	color: #3D1319;
+	font-family: Satisfy;
+}
+
+#plat-note-enchantee
+ul {
+	font-size: 18px;
+	color: #3D1319;
+	list-style-type: none;
+	text-align: left;
+	padding: 0 30px 0 40px;
+	margin: 0;
+}
+
+#plat-note-enchantee
+ul li {
+	margin-bottom: 15px;
+}
+
+#plat-note-enchantee
+.prix {
+	float: right;
+}
+
+.pied-plat .music {
+	margin-top: 30px;
+	font-size: 36px;
+	padding-right: 10px;
+}
+
+.pied-plat span {
+	color : #4B2227;
+	font-size: 25px;
+	font-family: Satisfy;
+	font-weight: bold;
+}
