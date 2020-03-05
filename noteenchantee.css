@@ -74,8 +74,9 @@ h2 {
 .pied-plat
 .music {
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
 }
 
 #plat-note-enchantee

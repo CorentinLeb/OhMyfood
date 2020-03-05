@@ -102,8 +102,9 @@ footer a:hover {
 	padding: 30px 0 30px 0;
 	margin: 10px 0 10px 0;
 	background: -webkit-linear-gradient(180deg, #915DF6, #D37D22);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
 }
 h3 {
 	font-family: Kalam, cursive;
