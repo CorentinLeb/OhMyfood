@@ -75,8 +75,8 @@ h2 {
 .music {
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
 	background-clip: text;
--webkit-background-clip: text;
-color: transparent;
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 #plat-note-enchantee

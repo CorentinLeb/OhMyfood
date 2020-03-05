@@ -21,9 +21,6 @@
 	}
 }
 
-
-
-
 @media screen and (max-width: 767px) {
     body {
         width: 100%;
@@ -41,6 +38,13 @@
 	}
 }
 
+body {
+	background-color: #ddd;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
 h1 {
 	font-family: Roboto, cursive;
 	background-color: #569C87;
@@ -50,9 +54,20 @@ h1 {
 	padding: 26px;
 }
 
+h2{
+	background-color: #fff5fe;
+}
+
 header, footer {
 	max-width: 700px;
 	margin: 0 auto;
+}
+
+#plat-chic-fr {
+	background-color: #ddd;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 footer {
@@ -103,42 +118,52 @@ footer a:hover {
 	margin: 10px 0 10px 0;
 	background: -webkit-linear-gradient(180deg, #915DF6, #D37D22);
 	background-clip: text;
--webkit-background-clip: text;
-color: transparent;
+	-webkit-background-clip: text;
+	color: transparent;
 }
+
 h3 {
 	font-family: Kalam, cursive;
 	font-size: 20px;
 	color: #3D1319;
 	padding: 5px 0 5px 0;
 }
+
 .categorie-entree h3 {
 	color: #C8781A;
 }
+
 .categorie-plat h3 {
 	color: #B580AB;
 }
+
 .categorie-dessert h3 {
 	color: #9B80DB;
 }
+
 .categorie-entree ul {
 	color: #C8781A;
 }
+
 .categorie-plat ul {
 	color: #AE77A4;
 }
+
 .categorie-dessert ul {
 	color: #9B81DB;
 }
+
 ul {
 	font-size: 18px;
 	list-style-type: none;
 	text-align: left;
 	margin: 10px 10px 30px 10px;
 }
+
 ul li {
 	margin-bottom: 15px;
 }
+
 .prix {
 	float: right;
 }
@@ -154,20 +179,20 @@ ul {
 	margin-top: 15px;
 	padding: 0px 30px 30px;
 }
+
 ul li {
 	margin-bottom: 10px;
 	text-align: left;
 }
+
 .prix {
 	float: right;
 }
+
 .plat h3 {
 	font-size: 20px;
 	padding-bottom: 0px;
 	margin-bottom: 0;
-}
-.plat h3:hover {
-	text-decoration:underline;
 }
 
 hr {
