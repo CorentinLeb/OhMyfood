@@ -5,6 +5,7 @@ h1 {
 	font-size: 46px;
 	margin: 0;
 	padding: 26px;
+	text-align: center;
 }
 
 header, footer {
@@ -52,6 +53,7 @@ footer a:hover {
 	max-width: 700px;
 	margin: 0 auto;
 	padding-bottom: 120px;
+	text-align: center;
 }
 
 #plat-note-enchantee
@@ -117,6 +119,7 @@ ul {
 #plat-note-enchantee
 ul li {
 	margin-bottom: 15px;
+	font-family: Satisfy;
 }
 
 #plat-note-enchantee
@@ -136,3 +139,4 @@ ul li {
 	font-family: Satisfy;
 	font-weight: bold;
 }
+
