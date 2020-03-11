@@ -46,8 +46,12 @@ footer a:hover {
 	perspective: 1000px;
  }
 
-#conteneur-delice-papilles {
-	margin: 20px auto 100px;
+ #plat-delice-papilles {
+	background-color: white;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+	text-align: center;
 }
 .plat {
 	background-color: #EDEFEF;

@@ -8,14 +8,6 @@ h1 {
 	text-align: center;
 }
 
-header {
-	
-	margin: 0;
-	padding: 0;
-	left: 0;
-	right: 0;
-}
-
 header, footer {
 	max-width: 700px;
 	margin: 0 auto;	
@@ -64,6 +56,12 @@ footer a:hover {
 	text-align: center;
 }
 
+hr {
+	width: 150px;
+	height: 20px; 
+	border: 6px black outset;
+	display: block;
+}
 
 h2 {
 	margin: 0px 0 10px 0;
