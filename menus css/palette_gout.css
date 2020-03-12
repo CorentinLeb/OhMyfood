@@ -1,5 +1,5 @@
 h1 {
-	font-family: Roboto, cursive;
+	font-family: Roboto, cursive, serif;
 	background-color: #569C87;
 	color: #F5C74A;
 	font-size: 46px;
@@ -22,7 +22,7 @@ footer {
 }
 
 footer a {
-	font-family: Roboto, cursive;
+	font-family: Roboto, cursive, serif;
 	font-size: 20px;
 	color: #F5C74A;
 	text-decoration: none;
@@ -52,7 +52,7 @@ footer a:hover {
 	color: #8F8F8F;
 }
 .titre-plat h3 {
-	font-family: 'Courgette', cursive;
+	font-family: 'Courgette', cursive, serif;
 	font-size: 40px;
 	padding: 40px 0 40px 0;
 	background: -webkit-linear-gradient(180deg, #CFFEA3, #41963C);

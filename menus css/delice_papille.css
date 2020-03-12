@@ -1,5 +1,5 @@
 h1 {
-	font-family: Roboto, cursive;
+	font-family: Roboto, cursive, serif;
 	background-color: #569C87;
 	color: #F5C74A;
 	font-size: 46px;
@@ -22,7 +22,7 @@ footer {
 }
 
 footer a {
-	font-family: Roboto, cursive;
+	font-family: Roboto, cursive, serif;
 	font-size: 20px;
 	color: #F5C74A;
 	text-decoration: none;
@@ -59,7 +59,7 @@ footer a:hover {
 	font-family: kalam;
 }
 .titre-plat h3 {
-	font-family: 'Homemade Apple', cursive;
+	font-family: 'Homemade Apple', cursive, serif;
 	font-size: 35px;
 	padding: 40px 0 40px 0;
 	background: -webkit-linear-gradient(180deg, #77BBF5, #1A3CDE);
@@ -68,7 +68,7 @@ footer a:hover {
 	color: transparent;
 }
 h3 {
-	font-family: Kalam, cursive;
+	font-family: Kalam, cursive, serif;
 	font-size: 20px;
 	padding: 5px 0 5px 0;
 	margin: 0;

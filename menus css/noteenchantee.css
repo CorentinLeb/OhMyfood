@@ -1,5 +1,5 @@
 h1 {
-	font-family: Roboto, cursive;
+	font-family: Roboto, cursive, serif;
 	background-color: #569C87;
 	color: #F5C74A;
 	font-size: 46px;
@@ -23,7 +23,7 @@ footer {
 }
 
 footer a {
-	font-family: Roboto, cursive;
+	font-family: Roboto, cursive, serif;
 	font-size: 20px;
 	color: #F5C74A;
 	text-decoration: none;
@@ -94,7 +94,7 @@ h2 {
 
 .titre-plat
 h3 {
-	font-family: Satisfy;
+	font-family: Satisfy, serif;
 	color: #3D1319;
 	font-size: 50px;
 	padding: 0 0 20px 0;
@@ -118,7 +118,7 @@ ul {
 
 ul li {
 	margin-bottom: 15px;
-	font-family: Satisfy;
+	font-family: Satisfy, serif;
 }
 
 .prix {
@@ -134,7 +134,7 @@ ul li {
 .pied-plat span {
 	color : #4B2227;
 	font-size: 25px;
-	font-family: Satisfy;
+	font-family: Satisfy, serif;
 	font-weight: bold;
 }
 
