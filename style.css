@@ -70,6 +70,7 @@ footer a:last-child {
 
 .menu-2 {
 	background-color: #fff5fe;
+	
 }
 
 .menu-3 {
@@ -84,7 +85,6 @@ footer a:last-child {
 	font-size: 35px;
 	margin: 100px 0 10px 0;
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
-	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -93,66 +93,61 @@ footer a:last-child {
 	font-family: Satisfy, cursive;
 	font-size: 25px;
 	color: #4B2227;
-	margin: 0 0 10px 0;
+	margin: 0;
 }
 
-.menu-2
-.menu-3
-.menu-4, 
-h2 {
-	margin: 140px 0 10px 0;
+.menu-2 .menu-3 .menu-4 h2 {
+	margin: 0;
 }
 
 .menu-2 h2 {
-	font-family: 'Patrick+Hand', cursive;
+	font-family: 'Patrick+Hand', cursive, serif;
 	font-size: 22px;
 	background: -webkit-linear-gradient(180deg, #9865fb, #e1a162);
-	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	text-align: center;
 }
 
 .menu-3 h2 {
-	font-family: Satisfy, cursive;
+	font-family: Satisfy, cursive, serif;
 	font-size: 26px;
 	background: -webkit-linear-gradient(180deg, #148cfb, #133fe1);
-	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .menu-4 h2 {
-	font-family: 'Courgette', cursive;
+	font-family: 'Courgette', cursive, serif;
 	font-size: 26px;
 	background: -webkit-linear-gradient(180deg, #c5ff8d, #489945);
-	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .menu-1 span {
 	font-size: 22px;
-	font-family: Kalam, cursive;
+	font-family: Kalam, cursive, serif;
 	color: #3e151b;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 .menu-2 span {
-	font-family: 'Courgette', cursive;
+	font-family: 'Courgette', cursive, serif;
 	font-size: 25px;
 	color: #c77412;
 	font-weight: bold;
 }
 
 .menu-3 span {
-	font-family: Satisfy, cursive;
+	font-family: Satisfy, cursive, serif;
 	font-size: 24px;
 	color: #0887fb;
 }
 
 .menu-4 span {
-	font-family: Satisfy, cursive;
+	font-family: Satisfy, cursive, serif;
 	font-size: 24px;
 	color: #72bf56;
 }
@@ -162,7 +157,6 @@ h2 {
 	overflow: hidden;
 	opacity: 0.33;
 }
-
 
 .soon {
 	width: 30%;
@@ -177,6 +171,7 @@ h2 {
 .soon a {
 	color: #F5C74A;
 	font-size: 20px;
+	font-family: Roboto, cursive, serif;
 	text-decoration: none;
 }
 
