@@ -89,6 +89,17 @@ footer a:last-child {
 	-webkit-text-fill-color: transparent;
 }
 
+#chic_fr {
+	padding-top: 120px;
+}
+
+#papilles {
+	padding-top: 120px;
+}
+
+#palette {
+	padding-top: 120px;
+}
 .menu-1 h2 {
 	font-family: Satisfy, cursive;
 	font-size: 25px;
