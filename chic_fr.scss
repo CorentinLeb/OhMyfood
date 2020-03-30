@@ -1,3 +1,7 @@
+$colorbackground: #ddd;
+$font: Roboto, cursive, serif;
+
+
 @media screen and (max-width: 1280px) {
 	
     body {
@@ -38,8 +42,6 @@
 	}
 }
 
-$colorbackground: #ddd;
-$text: center;
 
 body {
 	background-color: $colorbackground;
@@ -49,7 +51,7 @@ body {
 }
 
 h1 {
-	font-family: Roboto, cursive, serif;
+	font-family: $font;
 	background-color: #569C87;
 	color: #F5C74A;
 	font-size: 46px;
@@ -82,8 +84,9 @@ footer {
 	left: 0;
 	right: 0;
     display: inline-block;
+
      a {
-        font-family: Roboto, cursive, serif;
+        font-family: $font;
         font-size: 20px;
         color: #F5C74A;
         text-decoration: none;
@@ -105,10 +108,12 @@ footer {
 #conteneur-chic-fr {
 	margin: 20px auto 100px;
 }
+
 .plat {
 	background-color: #FFF5FE;
 	padding: 20px 0 30px 0;
 }
+
 .titre-plat h3 {
 	font-family: Kalam, cursive, serif;
 	font-size: 40px;
@@ -124,7 +129,18 @@ h3 {
 	font-family: Kalam, cursive, serif;
 	font-size: 20px;
 	color: #3D1319;
-	padding: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+
+    .titre-plat {
+    font-family: Kalam, cursive, serif;
+	font-size: 40px;
+	padding: 30px 0 30px 0;
+	margin: 10px 0 10px 0;
+	background: -webkit-linear-gradient(180deg, #915DF6, #D37D22);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+    }
 }
 
 .categorie-entree h3 {
@@ -176,13 +192,15 @@ ul {
 	font-size: 18px;
 	list-style-type: none;
 	margin-top: 15px;
-	padding: 0px 30px 30px;
+    padding: 0px 30px 30px;
+
+    li {
+        margin-bottom: 10px;
+        text-align: left;
+    }
 }
 
-ul li {
-	margin-bottom: 10px;
-	text-align: left;
-}
+
 
 .prix {
 	float: right;
