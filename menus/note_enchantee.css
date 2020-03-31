@@ -12,7 +12,11 @@ h1 {
 	text-align: center;
 }
 
-header, footer {
+header {	
+	left: 0;
+	right: 0;
+	display: inline-block;
+	position: fixed;
 	max-width: 700px;
 	margin: 0 auto;	
 	text-align: center;
@@ -25,6 +29,9 @@ footer {
 	right: 0;
 	display: inline-block;
 	position: fixed;
+	max-width: 700px;
+	margin: 0 auto;	
+	text-align: center;
 }
 
 footer a {

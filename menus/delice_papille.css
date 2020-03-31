@@ -10,20 +10,27 @@ h1 {
 	margin: 0;
 	padding: 26px;
 }
-
-header, footer {
+header {
+	left: 0;
+	right: 0;
+	display: inline-block;
+	position: fixed;
 	max-width: 700px;
-	margin: 0 auto;
+	margin: 0 auto;	
 	text-align: center;
 }
 
+
 footer {
 	background-color: #569C87;
-	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	display: inline-block;
+	position: fixed;
+	max-width: 700px;
+	margin: 0 auto;	
+	text-align: center;
 }
 
 footer a {
