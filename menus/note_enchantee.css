@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	height: 50px;
 }
 
 h1 {
@@ -17,7 +18,7 @@ header {
 	right: 0;
 	display: inline-block;
 	position: fixed;
-	max-width: 700px;
+	width: 700px;
 	margin: 0 auto;	
 	text-align: center;
 }
