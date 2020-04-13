@@ -63,9 +63,9 @@ footer a:hover {
 
 #plat-note-enchantee {
 	background-color: white;
-	max-width: 700px;
+	max-width: 700px;	
 	margin: 0 auto;
-	padding-bottom: 40px;
+	padding: 20px 0 40px 0;
 	text-align: center;
 }
 
@@ -151,3 +151,12 @@ ul li {
 	font-weight: bold;
 }
 
+hr {
+	text-align: left;
+    margin: 0 40px 0 15px;
+	content: '';
+    background: #593136;
+    width: 170px;
+    height: 4px;
+    display: inline-block;
+}
