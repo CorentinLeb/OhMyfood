@@ -69,12 +69,13 @@ footer a:hover {
 	text-align: center;
 }
 
-hr {
-	width: 150px;
-	height: 20px; 
-	border: 6px black outset;
-	display: block;
-}
+
+img {
+	margin-left: auto;
+	margin-top: 26px;
+	height: 40px;
+	width: 41px;
+  }
 
 h2 {
 	margin: 0px 0 10px 0;
