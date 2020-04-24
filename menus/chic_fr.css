@@ -42,7 +42,7 @@ body {
 	background-color: #ddd;
 	text-align: center;
 	margin: 0;
-	padding: 0;
+	height: 50px;
 }
 
 h1 {
@@ -56,12 +56,30 @@ h1 {
 }
 
 h2 {
-	background-color: #fff5fe;
+	background: -webkit-linear-gradient(180deg, #915DF6, #D37D22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-header, footer {
+header {	
+	left: 0;
+	right: 0;
+	display: inline-block;
+	position: fixed;
+	width: 700px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+footer {
+	background-color: #569C87;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: inline-block;
+	position: fixed;
 	max-width: 700px;
-	margin: 0 auto;
+	margin: 0 auto;	
 	text-align: center;
 }
 
@@ -69,16 +87,7 @@ header, footer {
 	background-color: #ddd;
 	text-align: center;
 	margin: 0;
-	padding: 0;
-}
-
-footer {
-	background-color: #569C87;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: inline-block;
+	padding: 20px 0 40px 0;
 }
 
 footer a {

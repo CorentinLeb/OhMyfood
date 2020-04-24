@@ -64,9 +64,13 @@ h2 {
 	background-color: #fff5fe;
 }
 
-header, footer {
-	max-width: 700px;
-	margin: 0 auto;
+header {	
+	left: 0;
+	right: 0;
+	display: inline-block;
+	position: fixed;
+	width: 700px;
+	margin: 0 auto;	
 	text-align: center;
 }
 
@@ -79,12 +83,14 @@ header, footer {
 
 footer {
 	background-color: #569C87;
-	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
-    display: inline-block;
-
+	display: inline-block;
+	position: fixed;
+	max-width: 700px;
+	margin: 0 auto;	
+	text-align: center;
      a {
         font-family: $font;
         font-size: 20px;

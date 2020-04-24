@@ -14,7 +14,18 @@ h1 {
 	padding: 26px;
 }
 
-header, footer {
+header {	
+	left: 0;
+	right: 0;
+	display: inline-block;
+	position: fixed;
+	width: 700px;
+	height: 50px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+footer {
 	max-width: 700px;
 	margin: 0 auto;
 }
@@ -51,7 +62,7 @@ footer a:last-child {
 	background-color: white;
 	max-width: 700px;
 	margin: auto;
-	padding-bottom: 100px;
+	padding: 97px 0 55px 0;
 }
 
 .menu {
