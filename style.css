@@ -17,26 +17,18 @@ h1 {
 header {	
 	left: 0;
 	right: 0;
-	display: inline-block;
-	position: fixed;
-	width: 700px;
-	height: 50px;
 	margin: 0 auto;	
 	text-align: center;
 }
 
 footer {
-	max-width: 700px;
-	margin: 0 auto;
-}
-
-footer {
 	background-color: #569C87;
-	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	display: inline-block;
+	position: fixed;
+	margin: 0 auto;	
+	text-align: center;
 }
 
 footer a {

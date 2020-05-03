@@ -16,9 +16,6 @@ h1 {
 header {	
 	left: 0;
 	right: 0;
-	display: inline-block;
-	position: fixed;
-	width: 700px;
 	margin: 0 auto;	
 	text-align: center;
 }
@@ -28,9 +25,7 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	display: inline-block;
 	position: fixed;
-	max-width: 700px;
 	margin: 0 auto;	
 	text-align: center;
 }
@@ -67,17 +62,16 @@ footer a:hover {
 	margin: 0 auto;
 	padding: 20px 0 40px 0;
 	text-align: center;
+	
 }
 
 
 img {
-	margin-left: auto;
-	margin-top: 26px;
-	height: 40px;
-	width: 41px;
+	width: 25%;
   }
 
 h2 {
+	justify-content: center;
 	margin: 0px 0 10px 0;
 	padding-top: 20px;
 	font-size: 25px;
@@ -88,6 +82,15 @@ h2 {
 .plat {
 	padding-bottom: 40px;
 	background-color: #fcdfdb;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 40%;
+	-moz-box-shadow: 5px 5px 5px 1px #656565;
+	-webkit-box-shadow: 5px 5px 5px 1px #656565;
+	-o-box-shadow: 5px 5px 5px 1px #656565;
+	box-shadow: 5px 5px 5px 1px #656565;
 }
 
 .music {
@@ -160,4 +163,11 @@ hr {
     width: 170px;
     height: 4px;
     display: inline-block;
+}
+
+h4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
 }
