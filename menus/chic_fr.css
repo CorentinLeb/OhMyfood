@@ -79,7 +79,7 @@ footer {
 }
 
 #plat-chic-fr {
-	background-color: #ddd;
+	background-color: #FFB6C1;
 	text-align: center;
 	margin: 0;
 	padding: 20px 0 40px 0;
@@ -129,9 +129,7 @@ footer a:hover {
 	margin: 20px auto 100px;
 }
 .plat {
-	background-color: #FFF5FE;
 	margin-bottom: 60px;
-	background-color: #fcdfdb;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -204,6 +202,14 @@ ul li {
 	color: #CA7D22;
 }
 
+.categorie-plat h4 {
+	color: #AE77A4;
+}
+
+.categorie-dessert h4 {
+	color: #9B81DB;
+}
+
 ul {
 	font-size: 18px;
 	list-style-type: none;
@@ -235,8 +241,17 @@ ul li {
 	margin-bottom: 0;
 }
 
-hr {
-	width: 50px;
-	height: 2px;
-	display: inline-block;
+h4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+}
+
+.t1 {
+	width: 20%;
+}
+
+.t2 {
+	width: 20%;
 }

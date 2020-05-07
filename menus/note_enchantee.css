@@ -115,6 +115,10 @@ h2 {
 	color: #353535;
 }
 
+span {
+	font-family: Satisfy, serif;
+	justify-content: center;
+}
 
 .plat {
 	margin-bottom: 60px;

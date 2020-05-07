@@ -90,20 +90,18 @@ footer a:hover {
 	transform: translate3d(4px, 0, 0);
  }
  }
+
  #plat-delice-papilles {
-	background-color: white;
 	max-width: 700px;	
 	margin: 0 auto;
-	padding: 0 0 40px 0;
+	padding: 20px 0 40px 0;
 	text-align: center;
 }
 
 .plat {
-	background-color: #EDEFEF;
-	color: #565757;
+	background-color: #D3D3D3;	
 	font-family: kalam, serif;
 	margin-bottom: 60px;
-	background-color: #fcdfdb;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -114,7 +112,7 @@ footer a:hover {
 	box-shadow: -4px 2px 15px 0px rgba(0,0,0,0.73);
 }
 
-.titre-plat h3 {
+h2 {
 	font-family: 'Homemade Apple', cursive, serif;
 	font-size: 35px;
 	padding: 40px 0 40px 0;
@@ -140,6 +138,16 @@ ul {
 ul li {
 	margin-bottom: 15px;
 }
+
 .prix {
 	float: right;
+}
+
+.t1 {
+
+	width: 20%;
+}
+
+.t2 {
+	width: 20%;
 }
