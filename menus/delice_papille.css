@@ -102,7 +102,6 @@ footer a:hover {
 	background-color: #D3D3D3;	
 	font-family: kalam, serif;
 	margin-bottom: 60px;
-	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
@@ -113,7 +112,7 @@ footer a:hover {
 }
 
 h2 {
-	font-family: 'Homemade Apple', cursive, serif;
+	font-family: 'Courgette', cursive, serif;
 	font-size: 35px;
 	padding: 40px 0 40px 0;
 	background: -webkit-linear-gradient(180deg, #77BBF5, #1A3CDE);
@@ -144,10 +143,11 @@ ul li {
 }
 
 .t1 {
-
 	width: 20%;
+	padding-right: 20px;
 }
 
 .t2 {
 	width: 20%;
+	padding-left: 20px;
 }

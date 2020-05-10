@@ -79,9 +79,9 @@ footer {
 }
 
 #plat-chic-fr {
-	background-color: #FFB6C1;
+	max-width: 700px;
+	margin: 0 auto;
 	text-align: center;
-	margin: 0;
 	padding: 20px 0 40px 0;
 }
 
@@ -129,6 +129,7 @@ footer a:hover {
 	margin: 20px auto 100px;
 }
 .plat {
+	background-color: #fff5fe;
 	margin-bottom: 60px;
 	display: flex;
 	justify-content: center;
@@ -226,15 +227,6 @@ ul li {
 	float: right;
 }
 
-
-#plat-chic-fr {
-	background-color: white;
-	max-width: 700px;
-	margin: 0 auto;
-	padding-bottom: 40px;
-	text-align: center;
-}
-
 .plat h3 {
 	font-size: 20px;
 	padding-bottom: 0px;
@@ -245,7 +237,8 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 75%;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .t1 {

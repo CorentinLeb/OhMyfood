@@ -1,5 +1,4 @@
 body {
-	background-color: #ddd;
 	text-align: center;
 	margin: 0;
 	padding: 0;
@@ -52,9 +51,7 @@ footer a:last-child {
 
 #accueil-ohmyfood {
 	background-color: white;
-	max-width: 700px;
 	margin: auto;
-	padding: 97px 0 55px 0;
 }
 
 .menu {
@@ -175,8 +172,8 @@ footer a:last-child {
 }
 
 .soon {
-	width: 30%;
-	margin: 20px auto;
+	width: 25%;
+	margin: 20px auto 90px;;
 	background-color: #569C87;
 	padding: 15px;
 	font-size: 18px;
